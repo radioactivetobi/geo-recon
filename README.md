@@ -3,7 +3,7 @@ An OSINT tool built with python for performing IP Geo-location and Reputation lo
 
 # Setup
 This tool is compactible with:
-* Any Linux Operating System (Debian, Ubuntu, centOS)
+* Any Linux Operating System (Debian, Ubuntu, CentOS)
 * Termux
 
 # Linux Setup
