@@ -9,10 +9,6 @@ print(f.read())
 if len(sys.argv) < 2:
    print (Fore.GREEN + " Usage: " + "python geo-recon.py <ipaddress>")
    sys.exit(1)
-#if sys.argv == "-h":
-   #print " Usage: " + "python geo-recon.py <ipaddress>"
-   #print " Example: " + "python geo-recon.py 192.168.24.72"
-   #sys.exit(1)
 
 #Get geo data for supplied ip address
 address = sys.argv[1]
@@ -33,7 +29,6 @@ print Fore.GREEN + "[*] Geo-IP Lookup Complete!!!" + "\n"
 
 
 # Check IP reputation information
-
 
 print "\n" + Fore.YELLOW + "[*] Running Reputation Check Against"+ " " + sys.argv[1] + "\n"
 
