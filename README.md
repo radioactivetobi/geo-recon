@@ -1,4 +1,4 @@
-# Geo-recon
+# Geo-Recon
 An OSINT tool built with python for performing IP Geo-location and Reputation look up.
 
 # Setup
