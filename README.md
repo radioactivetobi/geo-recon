@@ -1,10 +1,24 @@
-# geo-recon
+# Geo-recon
 An OSINT tool built with python for performing IP Geo-location and Reputation look up.
+
 # Setup
+This tool is compactible with:
+* Any Linux Operating System (Debian, Ubuntu, centOS)
+* Termux
+
+# Linux Setup
 ```bash
 git clone https://github.com/radioactivetobi/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
+pip install -r requirements.txt
+```
+# Termux Setup
+```bash
+git clone https://github.com/radioactivetobi/geo-recon.git
+cd geo-recon
+chmod +x geo-recon.py
+pip install -r requirements.txt
 ```
 # Sample Syntax
 ```bash
@@ -47,3 +61,4 @@ Whitelisted: false
 The IP Address 138.121.128.19 Is Malicious and well known for SSH Bruteforce Attacks
 
 [*] IP Reputation Look up Complete!!!
+```
