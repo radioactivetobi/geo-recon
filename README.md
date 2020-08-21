@@ -1,5 +1,5 @@
 # Geo-Recon
-An OSINT tool built with python for performing IP Geo-location and Reputation look up.
+An OSINT CLI tool desgined to fast track IP Reputation and Geo-locaton look up for Security Analysts.
 
 # Setup
 This tool is compactible with:
