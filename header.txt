@@ -8,5 +8,8 @@
 
                          By d3xt3r_182
  Github: https://github.com/radioactivetobi | Twitter: @d3xt3r_182
-            Usage: python geo-recon.py <IPADDRESS> 
+            Standard use: python3 geo-recon.py <IPADDRESS> <OPTION>
+            
+            Use python3 geo-recon.py -h too see the options
+            
             
