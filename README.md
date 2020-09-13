@@ -15,7 +15,7 @@ This tool is compactible with:
 
 # Linux Setup
 ```bash
-git clone https://github.com/radioactivetobi/geo-recon
+git clone https://github.com/radioactivetobi/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
 sudo apt install python3-pip
@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 [Link about python and pip on Termux](https://wiki.termux.com/wiki/Python) that comes with the pkg python
 
 ```bash
-git clone https://github.com/radioactivetobi/geo-recon
+git clone https://github.com/radioactivetobi/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
 pip3 install -r requirements.txt
