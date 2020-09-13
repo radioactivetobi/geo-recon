@@ -23,10 +23,10 @@ python3 geo-recon.py --help or -h                         (Display this)
 
 python3 geo-recon.py 123.456.789.10 --nmap or -n          (Nmap standard use)
 
-python3 geo-recon.py 123.456.789.10                       (Standard use, infos about IP)
+python3 geo-recon.py 123.456.789.10                       (Standard use, info about IP)
 
 python3 geo-recon.py --commands or -c                     (Display avaliable commands)
 
-python3 geo-recon.py localhost                            (Stardad use, infos about YOUR IP address)
+python3 geo-recon.py localhost                            (Standard use, info about YOUR IP address)
 
-python3 geo-recon.py localhost -n or --nmap               (Stardad use, infos about YOUR IP address with Nmap log)
+python3 geo-recon.py localhost -n or --nmap               (Standard use, info about YOUR IP address with Nmap log)
