@@ -42,8 +42,8 @@ root@kali:~/geo-recon# python3 geo-recon.py 138.121.128.19
 ╚██████╔╝███████╗╚█████╔╝  ██║░░██║███████╗╚█████╔╝╚█████╔╝██║░╚███║
 ░╚═════╝░╚══════╝░╚════╝░  ╚═╝░░╚═╝╚══════╝░╚════╝░░╚════╝░╚═╝░░╚══╝
 
-                         By d3xt3r_182
- Github: https://github.com/radioactivetobi | Twitter: @d3xt3r_182
+                         By d3xt3r_182, @Hautly_idk
+ Github: https://github.com/radioactivetobi | Twitter: @d3xt3r_182, @Hautly_idk
             Usage: python3 geo-recon.py <IPADDRESS> <OPTION>
             
             Use python3 geo-recon.py -h too see the options
