@@ -1,7 +1,7 @@
 # Geo-Recon
 An OSINT CLI tool desgined to fast track IP Reputation and Geo-locaton look up for Security Analysts.
 
-# Pre-requeriments of Linux
+# Pre-requirements for Linux
 
 * Python3 ```bash sudo apt install python3 ```
 * Pip3 ```bash sudo apt install python3-pip ```
