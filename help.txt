@@ -1,0 +1,32 @@
+# Geo-Recon
+An OSINT CLI tool desgined to fast track IP Reputation and Geo-locaton look up for Security Analysts.
+
+# Setup
+This tool is compactible with:
+* Any Linux Operating System (Debian, Ubuntu, CentOS)
+* Termux
+
+# Linux Install Requeriments
+
+pip3 install -r requirements.txt  #You also can use the pip3
+
+# Sample Simple Syntax Linux
+
+root@kali:~/geo-recon# python3 geo-recon.py 123.456.789.10
+or
+root@kali:~/geo-recon# python3 geo-recon.py 123.456.789.10 -n
+
+
+# Commands
+
+python3 geo-recon.py --help or -h                         (Display this)
+
+python3 geo-recon.py 123.456.789.10 --nmap or -n          (Nmap standard use)
+
+python3 geo-recon.py 123.456.789.10                       (Standard use, infos about IP)
+
+python3 geo-recon.py --commands or -c                     (Display avaliable commands)
+
+python3 geo-recon.py localhost                            (Stardad use, infos about YOUR IP address)
+
+python3 geo-recon.py localhost -n or --nmap               (Stardad use, infos about YOUR IP address with Nmap log)
