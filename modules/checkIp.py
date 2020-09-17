@@ -20,7 +20,7 @@ def check(syA1):
     }
 
     response = requests.request(method='GET', url=url, headers=headers, params=querystring)
-    print(response)
+ 
     # Formatted output
     decodedResponse = json.loads(response.text)
     print ( Fore.WHITE + "Domain: " + json.dumps(decodedResponse ["data"]["domain"]))
