@@ -20,7 +20,7 @@ from modules.myip import myIp
 syA = sys.argv
 
 def zero(syA):
-   #Verify if has no argumements and IPs, if not it will read de banner and will close
+   #Verify for argumements and IPs, if not it will read the banner and will close
    if (len(sys.argv) == 1):
       welcome()
       sys.exit(0)
@@ -64,7 +64,7 @@ if (len(sys.argv) > 1):
    else:
       os.system('clear')
       welcome()
-      print(Fore.WHITE + '\n Wait a minute.....')
+      print(Fore.WHITE + '\n Wait a minute....')
       getGeo(syA1)
       check(syA1)
 
