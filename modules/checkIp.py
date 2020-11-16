@@ -38,7 +38,7 @@ def check(syA1):
         print ( Fore.GREEN + "The IP Address " + sys.argv[1] + " Is Not Malicious" + "\n")
     elif json.dumps(decodedResponse ["data"]["abuseConfidenceScore"]) < "20":
         print ( "The IP Address " + sys.argv[1] + " Is Probably Not Malicious But Should Be Investigated Further")
-    elif json.dumps(decodedResponse ["data"]["abuseConfidenceScore"]) > "20":
+    elif json.dumps(decodedResponse ["data"]["abuseConfidenceScore"]) <= "20":
         print ( "The IP Address " + sys.argv[1] + " Is Probably Malicious And Should Be Investigated Further")
     else:
         print ( "[*] IP Reputation Look up Complete!!!" + "\n" )
