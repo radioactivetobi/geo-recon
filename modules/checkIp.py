@@ -23,6 +23,14 @@ def check(syA1):
  
     # Formatted output
     decodedResponse = json.loads(response.text)
+    
+    try:
+        errors = [error['detail'] for error in decodedResponse['errors']]
+        print ( Fore.RED + "Errors:\n    " + "\n    ".join(errors) + Fore.RESET + "\n\n")
+        return 1
+    except:
+        pass
+    
     print ( Fore.WHITE + "Domain: " + json.dumps(decodedResponse ["data"]["domain"]))
     print ( "Hostname: " + json.dumps(decodedResponse ["data"]["hostnames"]))
     print ( "Usage Type: " + json.dumps(decodedResponse ["data"]["usageType"]))
@@ -44,3 +52,4 @@ def check(syA1):
         print ( "[*] IP Reputation Look up Complete!!!" + "\n" )
 
     print ( Fore.GREEN + "[*] IP Reputation Look up Complete!!!" + "\n" )
+    print ( Fore.RESET )
